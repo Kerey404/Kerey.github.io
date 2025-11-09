@@ -1,0 +1,60 @@
+/* Typography & base */
+body { font-family: "Poppins", sans-serif; color: #111827; scroll-behavior: smooth; }
+img { max-width: 100%; display: block; }
+
+/* Navbar effect on scroll */
+.navbar { transition: box-shadow .25s ease, background .25s ease; }
+.navbar.scrolled { background: rgba(255,255,255,.95); box-shadow: 0 4px 18px rgba(0,0,0,.06); }
+
+/* Hero */
+.hero { height: 100vh; background: linear-gradient(to bottom right, #eff6ff, #ffffff); padding-top: 120px; }
+.hero-img { width: 180px; height: 180px; object-fit: cover; border-radius: 50%; border: 5px solid #fff; }
+
+/* Projects */
+.project-card img { transition: transform .3s ease; }
+.project-card:hover img { transform: scale(1.05); }
+
+/* Buttons */
+.btn-primary { background-color: #2563eb; border: none; border-radius: 12px; padding: 10px 24px; font-weight: 500; }
+.btn-primary:hover { background-color: #1d4ed8; }
+
+/* Footer */
+.footer { background: #111827; color: #e5e7eb; }
+
+/* Animations */
+.fade-in { opacity: 0; transform: translateY(10px); animation: fadeInUp 1s forwards; }
+@keyframes fadeInUp { to { opacity: 1; transform: translateY(0); } }
+
+/* ===== HERO SECTION ===== */
+.hero {
+  height: 100vh;
+  background: linear-gradient(to bottom right, #eff6ff, #ffffff);
+  padding-top: 120px;
+}
+
+/* ===== PROJECTS CARDS ===== */
+.project-card img {
+  transition: transform 0.3s ease;
+}
+.project-card:hover img {
+  transform: scale(1.05);
+}
+
+/* === Sticky Footer Fix === */
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main, section {
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+}

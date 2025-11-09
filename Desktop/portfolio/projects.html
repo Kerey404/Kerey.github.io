@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Kerey404</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-4 text-primary" href="index.html">Kerey404</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="menu" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="projects.html" class="nav-link active">Projects</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section class="projects py-5 mt-5">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-5">My Projects</h2>
+      <div class="row g-4">
+        <!-- Project 1 -->
+        <div class="col-md-4">
+          <div class="card project-card shadow-lg border-0">
+            <img src="images/project1.jpg" class="card-img-top" alt="Project 1" />
+            <div class="card-body">
+              <h5 class="card-title">Portfolio Website</h5>
+              <p class="card-text text-muted">A responsive personal portfolio with HTML, CSS, and Bootstrap.</p>
+              <button class="btn btn-outline-primary open-modal" data-title="Portfolio Website" data-desc="A fully responsive and modern personal portfolio site showcasing projects and skills using HTML, CSS, Bootstrap and jQuery effects.">View</button>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="col-md-4">
+          <div class="card project-card shadow-lg border-0">
+            <img src="images/project2.jpg" class="card-img-top" alt="Project 2" />
+            <div class="card-body">
+              <h5 class="card-title">Weather App</h5>
+              <p class="card-text text-muted">Weather forecast app with real-time API integration.</p>
+              <button class="btn btn-outline-primary open-modal" data-title="Weather App" data-desc="This app fetches real-time weather data using JavaScript and APIs, showing location-based temperature, humidity, and conditions.">View</button>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="col-md-4">
+          <div class="card project-card shadow-lg border-0">
+            <img src="images/project3.jpg" class="card-img-top" alt="Project 3" />
+            <div class="card-body">
+              <h5 class="card-title">Blog Platform</h5>
+              <p class="card-text text-muted">Interactive blog page with jQuery effects and animations.</p>
+              <button class="btn btn-outline-primary open-modal" data-title="Blog Platform" data-desc="A clean blog design built with Bootstrap, including animations, category filters, and comment section interactions.">View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MODAL WINDOW ===== -->
+  <div id="projectModal" class="modal fade" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content shadow-lg border-0">
+        <div class="modal-header">
+          <h5 class="modal-title fw-bold" id="modalTitle"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <p id="modalDesc" class="text-muted"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer text-center py-4 bg-dark text-white">
+    <p>© <span id="year"></span> Kerey404</p>
+  </footer>
+
+  <!-- ===== SCRIPTS ===== -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
