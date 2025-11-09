@@ -1,54 +1,58 @@
-Assignment Report: Portfolio Website
+# Portfolio — Kerey404
 
-Student: Kassymgali Bakytzhan
-Assignment: Interactive Portfolio Website
+A personal portfolio website showcasing projects, skills and contact information. Built with HTML5, CSS3, Bootstrap 5 and JavaScript. Suitable for hosting on GitHub Pages.
 
-Objective
+## Demo
+> Live demo: `https://Kerey404.github.io` *(replace with your actual GitHub Pages URL when deployed)*
 
-The goal of this assignment was to create a fully functional, multi-page portfolio website demonstrating proficiency in HTML, CSS, Bootstrap, JavaScript, and responsive design principles. The website showcases personal projects, skills, and provides a way for visitors to contact me.
+## Features
+- Responsive layout (desktop, tablet, mobile)
+- Multi-page structure: Home, About, Projects, Contact
+- Project cards with images and descriptions
+- Contact page with call-to-action button / email link
+- Clean, modern UI with rounded images and subtle shadows
 
-Website Structure
+## Screenshot
+![Portfolio Screenshot](./assets/screenshot.png)  
+*(Replace `./assets/screenshot.png` with your actual screenshot path.)*
 
-The website contains the following pages:
+## Technologies
+- HTML5 (semantic markup)
+- CSS3 + Bootstrap 5 (responsive grid & components)
+- JavaScript (interactivity)
+- Optional: jQuery for small DOM helpers
 
-Home – Introduction and brief overview of myself.
+## Project structure
+/ (repo root)
 
-About – Description of skills, technologies (Java, Python, Django), and personal interests.
+├─ index.html # Home
 
-Projects/Portfolio – Showcases completed projects with images and descriptions.
+├─ about.html
 
-Contact – Contact form with email link and call-to-action for collaboration.
+├─ projects.html
 
-Key Features
+├─ contact.html
 
-Responsive Design: Website layout adjusts to desktop, tablet, and mobile screens using Bootstrap grid system.
+├─ css/
 
-Interactive Elements: Buttons, hover effects, and links to project details.
+│ └─ style.css
 
-Clean and Modern UI: Use of rounded images, shadows, and readable typography.
+├─ js/
 
-Navigation Bar: Fixed navbar with smooth scrolling to sections.
+│ └─ main.js
 
-Call-to-Action Buttons: Encourages collaboration or project inquiries.
+├─ images/
 
-Technologies Used
+└─ README.md
 
-HTML5 for semantic structure.
 
-CSS3 and Bootstrap 5 for styling and responsive layout.
+<img width="1890" height="661" alt="image" src="https://github.com/user-attachments/assets/e6dd08c1-4b5d-4be7-bf8e-416f82340b7e" />
 
-JavaScript for interactive functionality.
 
-jQuery for DOM manipulation (optional enhancements).
 
-Challenges & Solutions
+<img width="1896" height="861" alt="image" src="https://github.com/user-attachments/assets/25b177be-8f3f-455d-9cd8-e66ad55e7c19" />
 
-Large images in the About section: Resolved by using Bootstrap’s img-fluid class and CSS max-height to maintain proper layout.
 
-Responsive navigation: Ensured mobile-friendly navbar using Bootstrap collapse feature.
+<img width="1899" height="824" alt="image" src="https://github.com/user-attachments/assets/1c8594e4-0e20-4509-a923-e390e2a20f94" />
 
-Maintaining clean repository: Used .gitignore to avoid committing unnecessary local files.
 
-Conclusion
-
-The assignment successfully demonstrates my ability to create a professional portfolio website that is visually appealing, responsive, and interactive. The website can be further enhanced by adding animations, project filters, or a blog section.
